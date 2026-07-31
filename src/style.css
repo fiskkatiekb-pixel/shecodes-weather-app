@@ -39,11 +39,6 @@ main {
   padding: 30px;
 }
 
-.weather-app-data {
-  display: flex;
-  justify-content: space-between;
-}
-
 .weather-app-city {
   margin: 0;
   font-size: 36px;
@@ -54,6 +49,9 @@ main {
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
+}
+.weather-app-details strong {
+  color: blue;
 }
 .weather-app-temperature-container {
   display: flex;
@@ -68,7 +66,7 @@ main {
   font-weight: 600;
 }
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 26px;
 }
 footer {
