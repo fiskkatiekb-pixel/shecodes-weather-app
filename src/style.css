@@ -35,6 +35,11 @@ header {
   font-size: 16px;
 }
 
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
 main {
   padding: 30px;
 }
@@ -55,6 +60,7 @@ main {
 }
 .weather-app-temperature-container {
   display: flex;
+  justify-content: right;
 }
 .weather-app-icon {
   width: 88px;
