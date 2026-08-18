@@ -35,18 +35,18 @@ header {
   font-size: 16px;
 }
 
+main {
+  padding: 30px 0;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
 }
 
-main {
-  padding: 30px;
-}
-
 .weather-app-city {
   margin: 0;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 48px;
 }
 .weather-app-details {
@@ -60,7 +60,6 @@ main {
 }
 .weather-app-temperature-container {
   display: flex;
-  justify-content: right;
 }
 .weather-app-icon {
   width: 88px;
